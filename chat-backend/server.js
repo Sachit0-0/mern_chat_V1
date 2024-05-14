@@ -7,7 +7,7 @@ const cors = require("cors");
 const ChatMessage = require("./models/ChatMessage");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 
 // Middleware
 app.use(cors());
