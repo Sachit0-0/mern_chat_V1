@@ -1,0 +1,57 @@
+/* src/App.css */
+
+:root {
+  --primary-color: #00246b;
+  --secondary-color: #8ab6f9;
+  --background-color: #cadcfc;
+  --button-hover-color: #8ab6f9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: var(--secondary-color);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+  color: var(--primary-color);
+}
